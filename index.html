@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bramwel Kirimi - CV</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="cv-container">
+    <header>
+      <img src="cv-photo.jpg" alt="Bramwel Kirimi" class="profile-photo">
+      <div class="intro">
+        <h1>Bramwel Kirimi</h1>
+        <p class="subtitle">Web Developer | React & Python Enthusiast</p>
+        <p class="location">📍 Nairobi, Kenya</p>
+        <button id="toggleMode">🌙 Toggle Dark Mode</button>
+      </div>
+    </header>
+
+    <section>
+      <h2>👤 Profile</h2>
+      <p>
+        Self-driven and passionate about becoming the best version of myself. Skilled in HTML, CSS, JavaScript, React, and Python. I studied Software Engineering at Moringa School and Business Administration at MKU. I’m deeply passionate about technology, history, and documentaries. I also love swimming and exploring creativity through coding.
+      </p>
+    </section>
+
+    <section>
+      <h2>💼 Experience</h2>
+      <ul>
+        <li><strong>Call Center Agent</strong> – Call Center International (2023–2024)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>Software Engineering</strong> – Moringa School</li>
+        <li><strong>Business Administration</strong> – Mount Kenya University (MKU)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠 Skills</h2>
+
+      <h3>💻 Tech Skills</h3>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Python</li>
+      </ul>
+
+      <h3>📞 Call Center Skills</h3>
+      <ul class="skills">
+        <li>Customer Support</li>
+        <li>Problem Solving</li>
+        <li>Conflict Resolution</li>
+        <li>CRM Systems</li>
+        <li>Effective Communication</li>
+      </ul>
+
+      <h3>📊 Business Skills</h3>
+      <ul class="skills">
+        <li>Business Communication</li>
+        <li>Time Management</li>
+        <li>Decision Making</li>
+        <li>Team Collaboration</li>
+        <li>Administrative Planning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📂 Projects</h2>
+      <p>Check out my projects on GitHub: <a href="https://github.com/Bram355" target="_blank">Bram355</a></p>
+    </section>
+
+    <section>
+      <h2>🎯 Interests</h2>
+      <p>History, Documentaries, Swimming, Advanced Technology</p>
+    </section>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('toggleMode');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
